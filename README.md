@@ -2,11 +2,11 @@
 
 A comprehensive community management platform designed to streamline administrative tasks, resident engagement, and IoT-based monitoring for residential societies and communities.
 
-## 📋 Overview
+## Overview
 
 Smart Digital Tole is a full-stack web application that combines a React-based frontend with an Express.js backend to provide a complete solution for managing community operations. The platform includes features for resident management, complaint tracking, garbage management, notice distribution, and IoT sensor monitoring.
 
-## ✨ Key Features
+## Key Features
 
 - **User Management**
   - Admin authentication and authorization
@@ -39,7 +39,7 @@ Smart Digital Tole is a full-stack web application that combines a React-based f
   - Resident personal dashboard
   - Community statistics and insights
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: React 18.3.1
@@ -60,7 +60,7 @@ Smart Digital Tole is a full-stack web application that combines a React-based f
 - **Microcontroller**: ESP32
 - **Application**: Dustbin monitoring and sensor data collection
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 smart-tole-run-package/
@@ -80,7 +80,7 @@ smart-tole-run-package/
     └── IOT_SETUP.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -173,7 +173,7 @@ SMTP_FROM_NAME=Smart Digital Tole
 ADMIN_SUPPORT_EMAIL=support@example.com
 ```
 
-## 🗄️ Database Setup
+## Database Setup
 
 The project includes SQL migration files in `server/sql/`:
 
@@ -186,7 +186,7 @@ Execute these files in MySQL Workbench or via command line:
 mysql -u root -p tole_management < server/sql/bootstrap-full-schema.sql
 ```
 
-## 📱 API Endpoints
+## API Endpoints
 
 The backend provides RESTful APIs for:
 
@@ -199,7 +199,7 @@ The backend provides RESTful APIs for:
 - **Notifications**: `/api/notifications` - Notification management
 - **Profile**: `/api/profile` - User profile management
 
-## 🧪 Development
+## Development
 
 ### Available Commands
 
@@ -216,7 +216,7 @@ npm run dev      # Start with auto-reload (using --watch)
 npm start        # Start production server
 ```
 
-## 📝 Database Migrations
+## Database Migrations
 
 The project includes SQL scripts for various database operations:
 
@@ -230,7 +230,7 @@ The project includes SQL scripts for various database operations:
 - `final-year-scope-upgrade.sql` - Final year enhancements
 - `xampp-auth-setup.sql` - XAMPP-specific authentication setup
 
-## 🔒 Security Features
+## Security Features
 
 - Password hashing with bcryptjs
 - CORS enabled for secure cross-origin requests
@@ -238,7 +238,7 @@ The project includes SQL scripts for various database operations:
 - Role-based access control (RBAC)
 - Environment variable protection for sensitive data
 
-## 📧 Email Notifications
+## Email Notifications
 
 The platform uses Gmail SMTP for sending email notifications:
 
@@ -248,7 +248,7 @@ The platform uses Gmail SMTP for sending email notifications:
 - Notice distribution
 - Emergency alerts
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Database Connection Issues
 - Verify MySQL is running
@@ -264,22 +264,13 @@ The platform uses Gmail SMTP for sending email notifications:
 - Change `PORT` in `.env` (default: 5000)
 - Or kill the process: `lsof -ti:5000 | xargs kill -9` (Linux/Mac)
 
-## 📄 License
+## License
 
 This project is developed for Smart Digital Tole community management.
 
-## 👥 Contributing
+## Contributing
 
 For contributions, please follow the existing code structure and create feature branches for new features.
 
-## 📞 Support
 
-For support and inquiries, contact: support@smartdigitaltole.com
 
-## 📅 Version
-
-Current Version: 0.0.1
-
----
-
-**Made with ❤️ for Better Community Management**
