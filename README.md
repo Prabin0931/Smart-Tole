@@ -77,7 +77,6 @@ smart-tole-run-package/
 │   └── .env.example
 └── iot/                     # IoT configurations
     ├── esp32_dustbin_monitor/
-    └── IOT_SETUP.md
 ```
 
 ## Getting Started
